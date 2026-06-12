@@ -137,6 +137,19 @@ h1 {
 }
 .lede em { font-family: 'Fraunces', serif; font-style: italic; color: var(--ink); }
 
+/* Hero call-to-action */
+.cta {
+  display: inline-block;
+  font-size: 15px; font-weight: 500;
+  color: var(--paper);
+  background: var(--accent);
+  padding: 10px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+.cta:hover { opacity: 0.85; }
+
 /* Portrait (currently disabled in markup; styles kept for easy re-enable) */
 .portrait {
   width: 168px; height: 168px; border-radius: var(--radius-lg);
@@ -259,6 +272,7 @@ footer a:hover { color: var(--accent); }
       <p class="kicker reveal">Engineering leader · AI &amp; platform technology · Netherlands</p>
       <h1 class="reveal d1">Hi, I&rsquo;m Ceren!</h1>
       <p class="lede reveal d2">I&rsquo;ve spent 20+ years in tech as an engineer, an architect, and a team-builder. These days I lead the engineering teams behind <em>systems that keep an airline flying</em>.</p>
+      <p class="reveal d2" style="margin-top: 22px;"><a class="cta" href="https://www.linkedin.com/in/ceren/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></p>
     </div>
     <!-- Portrait — re-enable by uncommenting and adding profile.jpg to the repo root.
     <div class="reveal d2">
